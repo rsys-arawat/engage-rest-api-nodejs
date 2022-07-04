@@ -1,0 +1,22 @@
+{
+  "name": "engage-rest-api-click-to-call-sample",
+  "version": "1.0.0",
+  "description": "Engage REST API java script sample is a POC on how to integrate the SDK and its functionalities into their application. The buttons Call, GetCallRecordsByCallId and GetCallRecords demonstrate how to use the SDK methods to call the API. The response of each button click can be found in console tab of the browser. The implementation of API call can be found in [main.js](https://github.com/RSYS-EDP/engage-rest-api-click-to-call-sample-js/blob/main/main.js).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsys-arawat/engage-rest-api-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsys-arawat/engage-rest-api-nodejs/issues"
+  },
+  "homepage": "https://github.com/rsys-arawat/engage-rest-api-nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
