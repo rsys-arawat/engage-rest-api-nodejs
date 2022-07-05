@@ -6,7 +6,7 @@ document.head.appendChild(script);
 var requestBody = {
     "From":"900012",
     "To":"sip:88888@@sipaz1.engageio.com",
-    "Eml":"<?xml version='1.0' encoding='UTF-8'?><Response><Say>This is Demo</Say></Response>"
+    "Eml":"<Response><Say>This is Demo from Heroku Platform</Say></Response>"
 }
 
 var apiKey = {headers:{
@@ -21,6 +21,7 @@ async function makeCall(){
     var callApi = new window.callApiClientSdk.CallApi();
     callApi.basePath = "https://apigateway.engagedigital.ai/api/v1";
     var response = callApi.makeCall(accountId, requestBody, apiKey);
+    console.log("-------Request Body --------", requestBody);
     console.log("-------Response call api--------", response);
 }
 
