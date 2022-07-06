@@ -5,7 +5,7 @@ document.head.appendChild(script);
 
 var requestBody = {
     "From":"900012",
-    "To":"sip:88888@@sipaz1.engageio.com",
+    "To":"sip:88888@sipaz1.engageio.com",
     "Eml":"<Response><Say>This is Demo from Heroku Platform</Say></Response>"
 }
 
